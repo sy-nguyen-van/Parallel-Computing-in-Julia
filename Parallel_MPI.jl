@@ -1,5 +1,9 @@
 # -----Ref: https://juliaparallel.org/MPI.jl/stable/
 # -----Ref: https://enccs.github.io/julia-for-hpc/MPI/
+# To use MPI on your machine, either Window or Linux, we need to install MPI applications:
+# 1. Window: https://www.microsoft.com/en-us/download/details.aspx?id=57467
+# 2. Linux: https://www.open-mpi.org/software/ompi/v5.0/
+# To use MPI with Julia, Install MPI: julia> ]add MPI
 using MPI
 using LinearAlgebra
 using BenchmarkTools
