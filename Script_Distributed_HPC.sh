@@ -1,7 +1,7 @@
 #!/bin/bash
-#SBATCH --nodes=1
-#SBATCH --ntasks=60
-#SBATCH --partition=general
+#SBATCH -N 1
+#SBATCH -n 100
+#SBATCH -p general
 #SBATCH --job-name="Distributed"
 #SBATCH --output="Distributed.out"
  
