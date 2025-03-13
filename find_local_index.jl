@@ -1,4 +1,4 @@
-# -----Ref: https://juliaparallel.org/MPI.jl/stable/
+# -----Ref: https://juliaparallel.org/MPI.jl/stable/--------
 function split_count(N::Integer, n::Integer)
     q, r = divrem(N, n)
     return [i <= r ? q + 1 : q for i = 1:n]

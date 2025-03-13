@@ -1,10 +1,10 @@
+# -----Ref: https://juliaparallel.org/MPI.jl/stable/
+# -----Ref: https://enccs.github.io/julia-for-hpc/MPI/
 using MPI
 using LinearAlgebra
 using BenchmarkTools
 # ========
 include("find_local_index.jl") # This function is used to assign tasks for CPUs
-# -----Ref: https://juliaparallel.org/MPI.jl/stable/
-# -----Ref: https://enccs.github.io/julia-for-hpc/MPI/
 MPI.Init()
 comm = MPI.COMM_WORLD
 rank = MPI.Comm_rank(comm)
@@ -42,3 +42,5 @@ end
 MPI.Barrier(comm)
 
 # mpiexec -n 7 julia .\Parallel_MPI.jl
+
+# To download codes: https://github.com/sy-nguyen-van/Parallel-Computing-in-Julia
