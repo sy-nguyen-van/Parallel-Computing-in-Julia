@@ -36,6 +36,6 @@ print("Distributed", "\n")
 @btime my_func_distributed(N);
 
 # julia --threads 8 Parallel_Threads.jl
-# julia -p 8  Parallel_Threads_Distributed.jl
+# julia -p 8 Parallel_Threads_Distributed.jl
 # julia -p 8 --threads 8 Parallel_Threads_Distributed.jl
 
