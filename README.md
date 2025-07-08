@@ -34,7 +34,7 @@ Note: The -n flag specifies the number of worker processes. Requires an MPI inst
 To get started, clone the repository to your local machine using:
 
 ```
-git clone https://github.com/sy-nguyen-van/Parallel-Computing-in-Julia.git
+git clone https://github.com/sy-nguyen-van/Parallel-Computing-in-Julia
 ```
 
 
