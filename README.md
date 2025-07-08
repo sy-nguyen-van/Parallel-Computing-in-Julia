@@ -27,8 +27,7 @@ Distribute tasks across multiple cores or machines using the MPI (Message Passin
 ```
 mpiexec -n 8 julia Parallel_MPI.jl
 ```
-Note: The -n flag specifies the number of worker processes.
-Note: Requires an MPI installation in your system (e.g., OpenMPI or MPICH).
+Note: The -n flag specifies the number of worker processes. Requires an MPI installation in your system (e.g., OpenMPI or MPICH).
 
 ## 📥 Clone this repository
 
